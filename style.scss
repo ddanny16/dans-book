@@ -1,0 +1,9 @@
+// @use "./styles/components/_header";
+@use "./styles/layouts/_section";
+@use "./styles/layouts/_sidebar";
+@use "./styles/components/_footer";
+@use "./styles/layouts/_media";
+
+@import"./styles/abstracts/variable";
+@import './styles/base/reset';
+@import './styles/components/_header';
