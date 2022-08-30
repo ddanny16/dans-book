@@ -18,8 +18,15 @@ body{
 
 
 }
-.imgtotal {
-    width: 20px;
+
+.fa-regular{
+    font-size: 15px;
+}
+.fa-solid{
+    font-size: 15px;
+}
+.uil{
+font-size: 15px;
 }
 .search-bar {
     display: flex;
@@ -56,6 +63,7 @@ img{
 .btn-primary{
     background: $colorPrimary;
     color: white;
+
 
 
 }

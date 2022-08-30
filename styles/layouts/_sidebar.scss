@@ -1,0 +1,61 @@
+main .container .left {
+    height: max-content;
+    position: sticky;
+    top: $stickyTopLeft;
+}
+
+main .container .left .profile {
+    padding: 10px;
+    background: $colorWhite;
+    border-radius: $cardBorderRadius;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    width: 100%;
+
+
+}
+
+h3 {
+    font-size: 17px;
+}
+
+.left .sidebar {
+    margin-top: 1rem;
+    background: $colorWhite;
+    border-radius: $cardBorderRadius;
+}
+
+.left .sidebar .menu-item {
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    cursor: pointer;
+    transition: all 300ms ease;
+    position: relative;
+
+    &:hover {
+        background: $colorLight;
+    }
+}
+
+.left .sidebar i {
+    font-size: 1.4rem;
+
+    color: $colorGray;
+    margin-left: 2rem;
+    position: relative;
+}
+
+.left .sidebar  .notification-count {
+    background-color: $colorDanger;
+    color: white;
+    font-size: 0.7rem;
+    width: fit-content;
+    border-radius: 0.8rem;
+    padding: 0.1rem 0.4rem;
+    position: absolute;
+    top: 0.4rem;
+    right: 4.0rem;
+}
+
