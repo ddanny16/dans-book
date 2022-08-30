@@ -196,4 +196,43 @@ h3 {
   position: absolute;
   top: 0.4rem;
   right: 4rem;
+}
+
+.left .sidebar h3 {
+  margin-left: 1.5rem;
+  font-size: 1rem;
+}
+
+.left .sidebar .active {
+  background: hsl(252deg, 30%, 95%);
+}
+.left .sidebar .active::before {
+  content: "";
+  display: block;
+  width: 0.5rem;
+  height: 100%;
+  position: absolute;
+  background: hsl(252deg, 75%, 60%);
+}
+
+.left .sidebar .active i,
+.left .sidebar .active h3 {
+  color: hsl(252deg, 75%, 60%);
+}
+
+.left .sidebar .menu-item:first-child.active {
+  border-top-left-radius: 1rem;
+  overflow: hidden;
+}
+
+.left .sidebar .menu-item:last-child.active {
+  border-bottom-left-radius: 1rem;
+  overflow: hidden;
+}
+
+.left .btn {
+  margin-top: 1rem;
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0;
 }/*# sourceMappingURL=style.css.map */

@@ -47,7 +47,7 @@ h3 {
     position: relative;
 }
 
-.left .sidebar  .notification-count {
+.left .sidebar .notification-count {
     background-color: $colorDanger;
     color: white;
     font-size: 0.7rem;
@@ -59,3 +59,54 @@ h3 {
     right: 4.0rem;
 }
 
+.left .sidebar h3 {
+    margin-left: 1.5rem;
+    font-size: 1rem;
+}
+
+.left .sidebar .active {
+    background: $colorLight;
+
+    &::before {
+        content: "";
+        display: block;
+        width: 0.5rem;
+        height: 100%;
+        position: absolute;
+        background: $colorPrimary ;
+    }
+}
+
+.left .sidebar .active i,
+.left .sidebar .active h3 {
+    color: $colorPrimary;
+}
+
+.left .sidebar .menu-item:first-child.active {
+    border-top-left-radius: $cardBorderRadius;
+    overflow: hidden;
+
+
+}
+
+.left .sidebar .menu-item:last-child.active {
+    border-bottom-left-radius: $cardBorderRadius;
+    overflow: hidden;
+}
+
+.left .btn {
+    margin-top: 1rem;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+// ///////////////////////NOTIFICATION POPUP
+// ///////////////////////NOTIFICATION POPUP
+// ///////////////////////NOTIFICATION POPUP
+// ///////////////////////NOTIFICATION POPUP
+// ///////////////////////NOTIFICATION POPUP
+
+.left .notification-popup{
+    
+}
