@@ -195,7 +195,6 @@ h3 {
   padding: 0.1rem 0.4rem;
   position: absolute;
   top: 0.4rem;
-  right: 4rem;
 }
 
 .left .sidebar h3 {
@@ -235,4 +234,15 @@ h3 {
   width: 100%;
   text-align: center;
   padding: 1rem 0;
+}
+
+.left .notification-popup {
+  position: absolute;
+  top: 0;
+  left: 110%;
+  width: 30rem;
+  background: hsl(252deg, 75%, 60%);
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0 0 2rem var(hsl(252deg, 75%, 60%), 75%, 60%, 25%);
 }/*# sourceMappingURL=style.css.map */
