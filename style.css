@@ -245,4 +245,9 @@ h3 {
   border-radius: 1rem;
   padding: 1rem;
   box-shadow: 0 0 2rem var(hsl(252deg, 75%, 60%), 75%, 60%, 25%);
+  z-index: 10;
+}
+.left .notification-popup::before {
+  content: "";
+  width: 1.2rem;
 }/*# sourceMappingURL=style.css.map */
